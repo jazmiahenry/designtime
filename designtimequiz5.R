@@ -1,3 +1,5 @@
+library(readr)
+designtime <- read_csv("Downloads/IXuJf0mgEemFOA6Hm29iNA_88e719672fa44d0093d1d5a428d2e068_materials/designtime.csv")
 designtime$Subject = factor(designtime$Subject) # convert to nominal factor
 summary(designtime)
 library(plyr)
